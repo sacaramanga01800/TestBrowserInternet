@@ -8,6 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <DockPanel >
+        <Label>test</Label>
         <wpf:ChromiumWebBrowser  x:Name="Browser" Address="https://manitowoc.sharepoint.com/sites/Tower_Engineering/Eng_Services/Shared%20Documents/Forms/AllItems.aspx"/>
     </DockPanel>
 </Window>
