@@ -31,6 +31,12 @@ namespace TestBrowserInternet
             //Cef.Initialize(settings, performDependencyCheck: false, browserProcessHandler: null);
 
             InitializeComponent();
+            if (false)
+            {
+                {
+                    this.DataContext = this;
+                }
+            }
         }
     }
 }
